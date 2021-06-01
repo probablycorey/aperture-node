@@ -8,7 +8,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "install": "prebuild-install || npm run build",
+    "install": "npm run build",
     "test": "xo && ava && tsd",
     "build": "swift build --configuration=release && mv .build/release/aperture .",
     "prepublish": "npm run build"
