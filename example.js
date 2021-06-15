@@ -16,7 +16,7 @@ async function main() {
   console.log('File is ready');
   await delay(5000);
   const fp = await recorder.stopRecording();
-  fs.renameSync(fp, 'recording.mp4');
+  fs.renameSync(fp, 'recording.mov');
   console.log('Video saved in the current directory');
 }
 

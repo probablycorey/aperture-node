@@ -56,7 +56,7 @@ class Aperture {
         return;
       }
 
-      this.tmpPath = tempy.file({extension: 'mp4'});
+      this.tmpPath = tempy.file({extension: 'mov'});
 
       if (highlightClicks === true) {
         showCursor = true;
