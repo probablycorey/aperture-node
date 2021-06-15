@@ -1,6 +1,6 @@
 {
-  "name": "aperture",
-  "version": "6.0.3",
+  "name": "probablycorey-aperture",
+  "version": "6.0.4",
   "description": "Record the screen on macOS",
   "license": "MIT",
   "repository": "probablycorey/aperture-node",
