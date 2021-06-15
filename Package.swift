@@ -15,7 +15,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/wulkano/Aperture", from: "1.0.0"),
+    .package(url: "https://github.com/probablycorey/Aperture", from: "1.0.0"),
     .package(url: "https://github.com/apple/swift-argument-parser", from: "0.4.2")
   ],
   targets: [
