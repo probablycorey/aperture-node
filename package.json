@@ -1,6 +1,6 @@
 {
   "name": "probablycorey-aperture",
-  "version": "8.0.1",
+  "version": "8.1.0",
   "description": "Record the screen on macOS",
   "license": "MIT",
   "repository": "probablycorey/aperture-node",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "xo && ava && tsd",
-    "build": "swift build --configuration=release && mv .build/release/aperture .",
+    "build": "rm -rf .build && xcrun swift build --configuration=release --arch arm64 --arch x86_64 && mv .build/apple/Products/Release/aperture .",
     "prepublish": "npm run build"
   },
   "files": [
